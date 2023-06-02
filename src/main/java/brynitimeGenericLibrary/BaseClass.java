@@ -31,8 +31,10 @@ public class BaseClass {
 	public WebDriver driver;
 	
 	@BeforeSuite()
+	
 	public void bsconfig() throws Throwable
 	{
+		//Thread.sleep(1000);
 		//duil.connecttodatabase(IpathConstants.mysqlurl,IpathConstants.mysqlusername,IpathConstants.mysqlpassword);
 		System.out.println("Database connected");
 	}
