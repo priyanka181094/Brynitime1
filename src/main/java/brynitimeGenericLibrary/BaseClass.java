@@ -34,7 +34,7 @@ public class BaseClass {
 	
 	public void bsconfig() throws Throwable
 	{
-		Thread.sleep(1000);
+		Thread.sleep(30000);
 		//duil.connecttodatabase(IpathConstants.mysqlurl,IpathConstants.mysqlusername,IpathConstants.mysqlpassword);
 		System.out.println("Database connected");
 	}
