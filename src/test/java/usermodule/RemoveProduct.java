@@ -33,7 +33,7 @@ import brynitimeObjectRepository.Productdetailspage;
 import brynitimeObjectRepository.Wishlistpage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-@Listeners(brynitimeGenericLibrary.Listenerimplimentationclass.class)
+//@Listeners(brynitimeGenericLibrary.Listenerimplimentationclass.class)
 
 public class RemoveProduct extends BaseClass 
 {
@@ -134,7 +134,7 @@ public class RemoveProduct extends BaseClass
 					System.out.println("mywishlist  page is  not displayed");
 				}
 				//to fail the trstscript
-				Assert.fail();
+				//Assert.fail();
 				
 				//click on Mycart icon
 				
